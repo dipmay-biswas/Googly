@@ -8,7 +8,7 @@ class QuestionSummary extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 450,
+      height: 400,
       child: SingleChildScrollView(
         padding: EdgeInsets.all(10),
         child: Column(
