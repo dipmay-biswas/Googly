@@ -36,9 +36,10 @@ For guidance in the mystic arts of Flutter, consult the [online grimoire](https:
 
 Want to discuss magical algorithms or the secrets of the Flutter realm? Reach out through these enchanted portals:
 
+- **Email:** [dipmay.biswas@gmail.com](mailto:dipmay.biswas@gmail.com)
 - **Facebook:** [Dipmay Biswas](https://www.facebook.com/dipmay.biswas.1)
 - **Instagram:** [dipmay_biswas](https://www.instagram.com/dipmay_biswas/)
-- **Twitter:** [@dipmay_biswas](https://twitter.com/dipmay_biswas)
+- **Twitter:** [dipmay_biswas](https://twitter.com/dipmay_biswas)
 - **LinkedIn:** [Dipmay Biswas](https://www.linkedin.com/in/dipmay-biswas-72a374227/)
 
 Unleash the magic of your mind with Googly! ✨🔮
