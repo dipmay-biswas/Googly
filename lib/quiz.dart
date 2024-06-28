@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:quiz_app/data/questions.dart';
+import 'package:quiz_app/data/questions.dart'; // Adjust the path as per your project structure
 import 'package:quiz_app/front_page.dart';
 import 'package:quiz_app/result_screen.dart';
 import 'package:quiz_app/question_screen.dart';
 
 class Quiz extends StatefulWidget {
-  const Quiz({super.key});
+  const Quiz({Key? key}) : super(key: key);
 
   @override
   State<Quiz> createState() => _QuizState();
