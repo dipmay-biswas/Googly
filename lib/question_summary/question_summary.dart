@@ -10,7 +10,7 @@ class QuestionSummary extends StatelessWidget {
     return SizedBox(
       height: 400,
       child: SingleChildScrollView(
-        padding: EdgeInsets.all(10),
+        padding: const EdgeInsets.all(10),
         child: Column(
           children: summaryData.map((data) {
             return SummaryItem(data);

@@ -44,7 +44,7 @@ class ResultScreen extends StatelessWidget {
             Text(
               'You answered $numCorrectQuestions out of $numTotalQuestions questions correctly!',
               style: GoogleFonts.caveat(
-                color: Color.fromARGB(255, 4, 2, 85),
+                color: const Color.fromARGB(255, 4, 2, 85),
                 fontSize: 28,
                 fontWeight: FontWeight.bold,
               ),

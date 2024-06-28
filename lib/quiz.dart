@@ -4,56 +4,49 @@ import 'package:quiz_app/front_page.dart';
 import 'package:quiz_app/result_screen.dart';
 import 'package:quiz_app/question_screen.dart';
 
-
 class Quiz extends StatefulWidget {
   const Quiz({super.key});
 
   @override
-  State<Quiz> createState() {
-    return _QuizState();
-  }
+  State<Quiz> createState() => _QuizState();
 }
 
 class _QuizState extends State<Quiz> {
   List<String> selectedAnswers = [];
-
-  Widget? activeScreen;
+  late Widget activeScreen;
 
   @override
   void initState() {
-    activeScreen = FrontPage(switchScreen);
     super.initState();
+    selectedAnswers = [];
+    activeScreen = FrontPage(_switchScreen);
   }
 
-  void reStartQuiz() {
+  void _restartQuiz() {
     setState(() {
-      selectedAnswers = [];
-      activeScreen = FrontPage(switchScreen);
+      selectedAnswers.clear();
+      activeScreen = FrontPage(_switchScreen);
     });
   }
 
-  // build method executed again and again
-  void switchScreen() {
+  void _switchScreen() {
     setState(() {
-      activeScreen = QuestionScreen(chooseAnswer);
+      activeScreen = QuestionScreen(_chooseAnswer);
     });
   }
 
-  void chooseAnswer(String answer) {
+  void _chooseAnswer(String answer) {
     selectedAnswers.add(answer);
 
     if (selectedAnswers.length == questions.length) {
       setState(() {
-        activeScreen = ResultScreen(
-          selectedAnswers,
-          reStartQuiz,
-        );
+        activeScreen = ResultScreen(selectedAnswers, _restartQuiz);
       });
     }
   }
 
   @override
-  Widget build(context) {
+  Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
