@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:lottie/lottie.dart';
 
 class FrontPage extends StatelessWidget {
   const FrontPage(this.startQuiz, {super.key});
@@ -7,7 +8,7 @@ class FrontPage extends StatelessWidget {
   final void Function() startQuiz;
 
   @override
-  Widget build(context) {
+  Widget build(BuildContext context) {
     return Center(
       child: Container(
         margin: const EdgeInsets.all(10),
@@ -15,9 +16,8 @@ class FrontPage extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             const Spacer(),
-            Image.asset(
-              'assets/images/logo.png',
-              width: 400,
+            SizedBox(
+              child: Lottie.asset('assets/logoAnimation.json'),
             ),
             Text(
               'Are you ready for the Googlies ??',
@@ -27,31 +27,26 @@ class FrontPage extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            const SizedBox(
-              height: 50,
-            ),
+            const SizedBox(height: 50),
             OutlinedButton.icon(
               onPressed: startQuiz,
               style: OutlinedButton.styleFrom(
                 foregroundColor: const Color.fromARGB(255, 255, 255, 255),
               ),
               icon: const Icon(Icons.arrow_right_alt),
-              label: const Text(
-                'Start Googly',
-              ),
+              label: const Text('Start Googly'),
             ),
             const Spacer(),
-             Text(
-                'Created with 🤍 by Dipmay',
-                style: GoogleFonts.caveat(
-                  fontSize: 14,
-                  color: Colors.white,
-                ),
+            Text(
+              'Created with 🤍 by Dipmay',
+              style: GoogleFonts.caveat(
+                fontSize: 14,
+                color: Colors.white,
               ),
+            ),
           ],
         ),
       ),
-      
     );
   }
 }
