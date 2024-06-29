@@ -54,8 +54,8 @@ class _QuizState extends State<Quiz> {
           decoration: const BoxDecoration(
             gradient: LinearGradient(
               colors: [
-                Color.fromARGB(255, 174, 0, 255),
-                Color.fromARGB(248, 255, 0, 230),
+                Color.fromARGB(255, 83, 2, 127),
+                Color.fromARGB(255, 158, 14, 148),
               ],
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,

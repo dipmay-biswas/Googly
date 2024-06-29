@@ -47,10 +47,11 @@ android {
 
     defaultConfig {
         applicationId "com.example.quiz_app"
-        minSdkVersion 19
+        minSdkVersion flutter.minSdkVersion
         targetSdkVersion 34  // Explicitly set targetSdkVersion to 34
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
+        multiDexEnabled true  // Enable MultiDex
     }
 
     buildTypes {
@@ -66,4 +67,5 @@ flutter {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.multidex:multidex:2.0.1'  // Add MultiDex dependency
 }

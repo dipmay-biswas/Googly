@@ -42,9 +42,9 @@ class ResultScreen extends StatelessWidget {
           children: [
             const Spacer(),
             Text(
-              'You answered $numCorrectQuestions out of $numTotalQuestions questions correctly!',
-              style: GoogleFonts.caveat(
-                color: const Color.fromARGB(255, 4, 2, 85),
+              'You answered $numCorrectQuestions out of $numTotalQuestions questions correctly !',
+              style: GoogleFonts.aDLaMDisplay(
+                color: Color.fromARGB(255, 238, 255, 0),
                 fontSize: 28,
                 fontWeight: FontWeight.bold,
               ),
@@ -70,13 +70,13 @@ class ResultScreen extends StatelessWidget {
             const Spacer(),
             Text(
               'Created with 🤍 by Dipmay',
-              style: GoogleFonts.caveat(
+              style: GoogleFonts.kalam(
                 fontSize: 14,
                 color: Colors.white,
               ),
             ),
             const SizedBox(
-              height: 12,
+              height: 18,
             ),
           ],
         ),

@@ -20,20 +20,26 @@ class FrontPage extends StatelessWidget {
               child: Lottie.asset('assets/logoAnimation.json'),
             ),
             const SizedBox(height: 50),
-            Text(
-              'Are you ready for the Googlies ??',
-              style: GoogleFonts.caveat(
-                color: const Color(0xFF040255),
-                fontSize: 32,
-                fontWeight: FontWeight.bold,
-              ),
+            Padding(
+              padding: const EdgeInsets.only(left: 20, right: 20),
+              child: FittedBox(
+                  fit: BoxFit.scaleDown,
+                  child: Text(
+                    'Are you ready for the Googlies ??',
+                    style: GoogleFonts.aDLaMDisplay(
+                      color: Color.fromARGB(255, 238, 255, 0),
+                      fontSize: 100,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
             ),
             const SizedBox(height: 50),
             OutlinedButton.icon(
               onPressed: startQuiz,
               style: OutlinedButton.styleFrom(
                 // ignore: deprecated_member_use
-                primary: Colors.white,
+                foregroundColor: Colors.white,
               ),
               icon: const Icon(Icons.arrow_right_alt),
               label: const Text('Start Googly'),
@@ -41,10 +47,13 @@ class FrontPage extends StatelessWidget {
             const Spacer(),
             Text(
               'Created with 🤍 by Dipmay',
-              style: GoogleFonts.caveat(
+              style: GoogleFonts.kalam(
                 fontSize: 14,
                 color: Colors.white,
               ),
+            ),
+            const SizedBox(
+              height: 8,
             ),
           ],
         ),

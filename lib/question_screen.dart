@@ -37,7 +37,7 @@ class _QuestionScreenState extends State<QuestionScreen> {
           children: [
             Text(
               currentQuestion.text,
-              style: GoogleFonts.caveat(
+              style: GoogleFonts.kalam(
                 color: Colors.white,
                 fontSize: 30,
                 fontWeight: FontWeight.bold,
