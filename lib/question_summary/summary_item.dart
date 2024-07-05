@@ -37,14 +37,14 @@ class SummaryItem extends StatelessWidget {
             Text(
               itemData['user_answer'] as String,
               style: const TextStyle(
-                color: Color.fromARGB(255, 0, 255, 162),
+                color: Color.fromARGB(255, 4, 242, 0),
                 fontSize: 14,
               ),
             ),
             Text(
               itemData['correct_answer'] as String,
               style: const TextStyle(
-                color: Color.fromARGB(255, 0, 252, 244),
+                color: Color.fromARGB(255, 255, 191, 0),
                 fontSize: 14,
               ),
             ),

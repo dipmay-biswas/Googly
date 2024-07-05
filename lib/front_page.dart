@@ -13,11 +13,11 @@ class FrontPage extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.all(10.0),
         child: Column(
-          mainAxisSize: MainAxisSize.min,
+          // mainAxisSize: MainAxisSize.min,
           children: [
             const Spacer(),
             SizedBox(
-              child: Lottie.asset('assets/logoAnimation.json'),
+              child: Lottie.asset('assets/logoAnimation.json', repeat: true, reverse: true),
             ),
             const SizedBox(height: 50),
             Padding(
