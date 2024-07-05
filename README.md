@@ -17,11 +17,15 @@ Googly is not just a quiz app; it's a journey to unravel the depths of your inte
 
 Behold the magic of Googly through these enchanting screenshots:
 
-<img src="https://github.com/dipmay-biswas/Googly/assets/127662809/3fa8713f-f747-473a-bd27-07a2b9bfb394" width="250" height="550">
-<img src="https://github.com/dipmay-biswas/Googly/assets/127662809/18159b8a-247a-43b6-b70b-d96ec4949d8b" width="250" height="550">
-<img src="https://github.com/dipmay-biswas/Googly/assets/127662809/16463541-1a49-47f7-885c-f4ffea35adf2" width="250" height="550">
-<img src="https://github.com/dipmay-biswas/Googly/assets/127662809/79c656e5-2d9f-4fcf-9cfc-aa8ec0251224" width="250" height="550">
-<img src="https://github.com/dipmay-biswas/Googly/assets/127662809/61a0fd69-d1af-4fa7-98b2-3dd630c90ac8" width="250" height="550">
+<img src="https://github.com/dipmay-biswas/Googly/assets/127662809/c276a16d-6924-47eb-8ae5-55fab31fcd26" width="250" height="550">
+<img src="https://github.com/dipmay-biswas/Googly/assets/127662809/6e974e37-8f0f-4548-afd2-3c6583735469" width="250" height="550">
+<img src="https://github.com/dipmay-biswas/Googly/assets/127662809/bae783ad-16f0-4459-87c4-605387b279d3" width="250" height="550">
+<img src="https://github.com/dipmay-biswas/Googly/assets/127662809/61a2cb84-ef31-487d-b330-7299a6f7c0cb" width="250" height="550">
+<img src="https://github.com/dipmay-biswas/Googly/assets/127662809/f49a20eb-679b-406b-b5d5-942b96bbca54" width="250" height="550">
+<img src="https://github.com/dipmay-biswas/Googly/assets/127662809/f50d908d-1cc1-48e6-91f1-5da6f62b6a31" width="250" height="550">
+<img src="https://github.com/dipmay-biswas/Googly/assets/127662809/b4e25da3-b9c1-4be5-9c4c-581373cda8d5" width="250" height="550">
+<img src="https://github.com/dipmay-biswas/Googly/assets/127662809/bee93c71-031a-4ba9-af65-051115e3749d" width="250" height="550">
+<img src="https://github.com/dipmay-biswas/Googly/assets/127662809/acd05f2c-59f3-40cb-b46e-fc50fecb3bb9" width="250" height="550">
 
 ## Begin the Quest 🚀
 
