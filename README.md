@@ -6,12 +6,6 @@ Welcome to Googly, where every answer is a twist and every question is an advent
 
 Googly is not just a quiz app; it's a journey to unravel the depths of your intelligence. Navigate through mind-bending questions that will keep you on your toes!
 
-## 📥 Install the App
-
-Ready to test your wits? Download and install the app directly from the link below:
-
-[Download Googly App](./build/app/outputs/flutter-apk/app-release.apk)
-
 ## Tech Sorcery 🛠️
 
 - **Flutter** 🦋
