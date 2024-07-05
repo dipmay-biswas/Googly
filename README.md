@@ -6,6 +6,12 @@ Welcome to Googly, where every answer is a twist and every question is an advent
 
 Googly is not just a quiz app; it's a journey to unravel the depths of your intelligence. Navigate through mind-bending questions that will keep you on your toes!
 
+## 📥 Install the App
+
+Ready to test your wits? Download and install the app directly from the link below:
+
+[Download Googly App](./build/app/outputs/flutter-apk/app-release.apk)
+
 ## Tech Sorcery 🛠️
 
 - **Flutter** 🦋
@@ -38,7 +44,7 @@ Want to discuss magical algorithms or the secrets of the Flutter realm? Reach ou
 
 - **Email:** [dipmay.biswas@gmail.com](mailto:dipmay.biswas@gmail.com)
 - **Facebook:** [Dipmay Biswas](https://www.facebook.com/dipmay.biswas.1)
-- **Instagram:** [dipmay_biswas](https://www.instagram.com/dipmay_biswas/)
+- **Instagram:** [dipmay_](https://www.instagram.com/dipmay_biswas/)
 - **Twitter:** [dipmay_biswas](https://twitter.com/dipmay_biswas)
 - **LinkedIn:** [Dipmay Biswas](https://www.linkedin.com/in/dipmay-biswas-72a374227/)
 
